@@ -1,0 +1,14 @@
+{
+    "name": "marek/micro-symfony",
+    "description": "Micro framework based on Symfony",
+    "require": {
+        "symfony/symfony": "^2.7",
+        "sensio/framework-extra-bundle": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Marek",
+            "email": "blazek.mario@gmail.com"
+        }
+    ]
+}
