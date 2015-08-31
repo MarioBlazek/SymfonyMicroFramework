@@ -12,6 +12,12 @@ $debug = true;
 
 $loader = require_once __DIR__.'/../config/autoload.php';
 
+$dotenv = new \Dotenv\Dotenv(__DIR__.'/../');
+$dotenv->load();
+
+$env = $_SERVER['SYMFONY_ENV'];
+$debug = $_SERVER['SYMFONY_DEBUG'];
+
 if ($debug) {
     Debug::enable();
 }

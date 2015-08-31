@@ -3,7 +3,8 @@
     "description": "Micro framework based on Symfony",
     "require": {
         "symfony/symfony": "^2.7",
-        "sensio/framework-extra-bundle": "^3.0"
+        "sensio/framework-extra-bundle": "^3.0",
+        "vlucas/phpdotenv": "^2.0"
     },
     "authors": [
         {
