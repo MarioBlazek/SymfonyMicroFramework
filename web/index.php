@@ -10,7 +10,7 @@ umask(0000);
 $env = 'dev';
 $debug = true;
 
-$loader = require_once __DIR__.'/../vendor/autoload.php';
+$loader = require_once __DIR__.'/../config/autoload.php';
 
 if ($debug) {
     Debug::enable();

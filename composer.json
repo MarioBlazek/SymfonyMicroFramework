@@ -10,5 +10,10 @@
             "name": "Marek",
             "email": "blazek.mario@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "AppBundle/"
+        }
+    }
 }
