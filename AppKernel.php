@@ -23,6 +23,8 @@ class AppKernel extends Kernel
             new \AppBundle\AppBundle(),
         );
 
+        $bundles[] = new \Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
+
         return $bundles;
     }
 
